@@ -1,14 +1,15 @@
 #!/usr/bin/env bash
 
 GLOBAL_BRK_NUM=3
+PWD="$(pwd)"
 
 declare -A map=(["sub0"]="globalA" \
-		            ["sub1"]="globalA" \
-		            ["sub2"]="globalA" \
-		            ["sub3"]="globalB" \
-		            ["sub4"]="globalC" \
-		            ["sub5"]="globalC" \
-		            ["sub6"]="globalC")
+                ["sub1"]="globalA" \
+                ["sub2"]="globalA" \
+                ["sub3"]="globalB" \
+                ["sub4"]="globalC" \
+                ["sub5"]="globalC" \
+                ["sub6"]="globalC")
 
 
 GLOBAL_NET="mysubnet"
@@ -38,11 +39,11 @@ done
 
 
 docker run --rm --init -dit \
-		-v ~/mosquitto/conf/plain.conf:/mosquitto/config/mosquitto.conf \
-		-v ~/mosquitto/logs:/mosquitto/log \
-		--net mysubnet --ip 172.18.0.254 \
-		--name brokerINIT \
-		eclipse-mosquitto
+    -v $PWD/conf/plain.conf:/mosquitto/config/mosquitto.conf \
+    -v $PWD/mosquitto/logs:/mosquitto/log \
+    --net mysubnet --ip 172.18.0.254 \
+    --name brokerINIT \
+    eclipse-mosquitto
 
 
 for broker in $(seq 1 $GLOBAL_BRK_NUM)
@@ -52,8 +53,8 @@ do
   container_name="global$brokerID"
   echo $brokerID
   docker run --rm --init -dit \
-                -v ~/mosquitto/conf/$brokerID.conf:/mosquitto/config/mosquitto.conf \
-                -v ~/mosquitto/logs:/mosquitto/log \
+                -v $PWD/conf/$brokerID.conf:/mosquitto/config/mosquitto.conf \
+                -v $PWD/logs:/mosquitto/log \
                 --net mysubnet --ip 172.18.0.$host_net \
                 --name $container_name \
                 eclipse-mosquitto
@@ -73,12 +74,23 @@ do
   host_net=$((NET_START+$broker))
   echo $host_net
 
+  connection_name="from-$broker-to-${map[$broker]}"
+  #create new config file
+  cp $PWD/conf/local/basic.conf $PWD/conf/local/$broker.conf
+  echo "connection $connection_name" >> $PWD/conf/local/$broker.conf
+  echo "address 172.$host_net.0.254" >> $PWD/conf/local/$broker.conf
+  echo "topic # both 2" >> $PWD/conf/local/$broker.conf
+
+  cat $PWD/conf/local/$broker.conf
+
   docker run --rm --init -dit \
-                -v ~/mosquitto/conf/mosquitto.conf:/mosquitto/config/mosquitto.conf \
-                -v ~/mosquitto/logs:/mosquitto/log \
+                -v $PWD/conf/local/$broker.conf:/mosquitto/config/mosquitto.conf \
+                -v $PWD/logs:/mosquitto/log \
                 --net ${SUB_LIST[$broker]} --ip 172.$host_net.0.250 \
                 --name "local$broker" \
                 eclipse-mosquitto
+
+  #rm $PWD/conf/new.conf
 done
 
 
@@ -92,11 +104,11 @@ done
 
 
   # docker run --rm --init -dit \
-		# -v ~/mosquitto/conf/B.conf:/mosquitto/config/mosquitto.conf \
-		# -v ~/mosquitto/logs:/mosquitto/log \
-		# --net mysubnet --ip 172.18.0.3 \
-		# --name brokerB \
-		# eclipse-mosquitto
+    # -v ~/mosquitto/conf/B.conf:/mosquitto/config/mosquitto.conf \
+    # -v ~/mosquitto/logs:/mosquitto/log \
+    # --net mysubnet --ip 172.18.0.3 \
+    # --name brokerB \
+    # eclipse-mosquitto
 
   # docker run --rm --init -dit \
   #               -v ~/mosquitto/conf/C.conf:/mosquitto/config/mosquitto.conf \

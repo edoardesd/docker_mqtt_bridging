@@ -3400,3 +3400,592 @@
 1562170928: Connecting bridge forward-to-03 (172.20.0.254:1883)
 1562170536: New client connected from 172.18.0.5 as mosqsub|6-9f644b1ac253 (p2, c1, k60).
 1562170949: Socket error on client mosqsub|6-9f644b1ac253, disconnecting.
+1562227853: mosquitto version 1.6.3 starting
+1562227854: mosquitto version 1.6.3 starting
+1562227855: mosquitto version 1.6.3 starting
+1562227854: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227854: Opening ipv4 listen socket on port 1883.
+1562227854: Opening ipv6 listen socket on port 1883.
+1562227854: Connecting bridge B (172.18.0.254:1883)
+1562227978: mosquitto version 1.6.3 terminating
+1562227853: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227853: Opening ipv4 listen socket on port 1883.
+1562227853: Opening ipv6 listen socket on port 1883.
+1562227853: Connecting bridge A (172.18.0.254:1883)
+1562227978: Socket error on client local.996db102cd93.A, disconnecting.
+1562227855: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227855: Opening ipv4 listen socket on port 1883.
+1562227855: Opening ipv6 listen socket on port 1883.
+1562227855: Connecting bridge C (172.18.0.254:1883)
+1562227978: Socket error on client local.d017a5669580.C, disconnecting.
+1562227978: mosquitto version 1.6.3 terminating
+1562227978: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562227978: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562227978: mosquitto version 1.6.3 terminating
+1562227978: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562227985: mosquitto version 1.6.3 starting
+1562227986: mosquitto version 1.6.3 starting
+1562227987: mosquitto version 1.6.3 starting
+1562227986: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227986: Opening ipv4 listen socket on port 1883.
+1562227986: Opening ipv6 listen socket on port 1883.
+1562227986: Connecting bridge B (172.18.0.254:1883)
+1562228078: mosquitto version 1.6.3 terminating
+1562228078: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562227987: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227987: Opening ipv4 listen socket on port 1883.
+1562227987: Opening ipv6 listen socket on port 1883.
+1562227987: Connecting bridge C (172.18.0.254:1883)
+1562228078: mosquitto version 1.6.3 terminating
+1562227985: Config loaded from /mosquitto/config/mosquitto.conf.
+1562227985: Opening ipv4 listen socket on port 1883.
+1562227985: Opening ipv6 listen socket on port 1883.
+1562227985: Connecting bridge A (172.18.0.254:1883)
+1562228078: mosquitto version 1.6.3 terminating
+1562228078: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228078: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228085: mosquitto version 1.6.3 starting
+1562228086: mosquitto version 1.6.3 starting
+1562228087: mosquitto version 1.6.3 starting
+1562228089: mosquitto version 1.6.3 starting
+1562228085: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228085: Opening ipv4 listen socket on port 1883.
+1562228085: Opening ipv6 listen socket on port 1883.
+1562228085: Connecting bridge A (172.18.0.254:1883)
+1562228089: New connection from 172.20.0.250 on port 1883.
+1562228090: mosquitto version 1.6.3 starting
+1562228091: mosquitto version 1.6.3 starting
+1562228089: New bridge connected from 172.20.0.250 as 415c6f19d4a0.from-0-to- (p2, c0, k60).
+1562228090: New connection from 172.21.0.250 on port 1883.
+1562228090: New bridge connected from 172.21.0.250 as 3d15cacbf782.from-1-to- (p2, c0, k60).
+1562228091: New connection from 172.22.0.250 on port 1883.
+1562228091: mosquitto version 1.6.3 starting
+1562228086: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228086: Opening ipv4 listen socket on port 1883.
+1562228086: Opening ipv6 listen socket on port 1883.
+1562228086: Connecting bridge B (172.18.0.254:1883)
+1562228091: New connection from 172.23.0.250 on port 1883.
+1562228092: mosquitto version 1.6.3 starting
+1562228087: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228087: Opening ipv4 listen socket on port 1883.
+1562228087: Opening ipv6 listen socket on port 1883.
+1562228087: Connecting bridge C (172.18.0.254:1883)
+1562228092: New connection from 172.24.0.250 on port 1883.
+1562228093: mosquitto version 1.6.3 starting
+1562228094: mosquitto version 1.6.3 starting
+1562228092: New bridge connected from 172.24.0.250 as a9f201a7f4de.from-4-to- (p2, c0, k60).
+1562228093: New connection from 172.25.0.250 on port 1883.
+1562228093: New bridge connected from 172.25.0.250 as dca83e4b9f0d.from-5-to- (p2, c0, k60).
+1562228094: New connection from 172.26.0.250 on port 1883.
+1562228089: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228089: Opening ipv4 listen socket on port 1883.
+1562228089: Opening ipv6 listen socket on port 1883.
+1562228089: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562228184: mosquitto version 1.6.3 terminating
+1562228094: New bridge connected from 172.26.0.250 as b2992fec6488.from-6-to- (p2, c0, k60).
+1562228184: mosquitto version 1.6.3 terminating
+1562228091: New bridge connected from 172.22.0.250 as fdeb99cb1fc2.from-2-to- (p2, c0, k60).
+1562228184: mosquitto version 1.6.3 terminating
+1562228091: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228091: Opening ipv4 listen socket on port 1883.
+1562228091: Opening ipv6 listen socket on port 1883.
+1562228091: Connecting bridge from-2-to- (172.22.0.254:1883)
+1562228184: mosquitto version 1.6.3 terminating
+1562228090: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228090: Opening ipv4 listen socket on port 1883.
+1562228090: Opening ipv6 listen socket on port 1883.
+1562228090: Connecting bridge from-1-to- (172.21.0.254:1883)
+1562228184: mosquitto version 1.6.3 terminating
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228091: New bridge connected from 172.23.0.250 as 86ae8ab03202.from-3-to- (p2, c0, k60).
+1562228184: mosquitto version 1.6.3 terminating
+1562228092: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228092: Opening ipv4 listen socket on port 1883.
+1562228092: Opening ipv6 listen socket on port 1883.
+1562228092: Connecting bridge from-4-to- (172.24.0.254:1883)
+1562228184: mosquitto version 1.6.3 terminating
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228094: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228094: Opening ipv4 listen socket on port 1883.
+1562228094: Opening ipv6 listen socket on port 1883.
+1562228094: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562228184: Socket error on client local.b2992fec6488.from-6-to-, disconnecting.
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228093: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228093: Opening ipv4 listen socket on port 1883.
+1562228093: Opening ipv6 listen socket on port 1883.
+1562228093: Connecting bridge from-5-to- (172.25.0.254:1883)
+1562228184: Socket error on client local.dca83e4b9f0d.from-5-to-, disconnecting.
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228091: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228091: Opening ipv4 listen socket on port 1883.
+1562228091: Opening ipv6 listen socket on port 1883.
+1562228091: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562228184: Socket error on client local.86ae8ab03202.from-3-to-, disconnecting.
+1562228184: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228185: mosquitto version 1.6.3 terminating
+1562228185: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228185: mosquitto version 1.6.3 terminating
+1562228185: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228185: mosquitto version 1.6.3 terminating
+1562228185: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228195: mosquitto version 1.6.3 starting
+1562228196: mosquitto version 1.6.3 starting
+1562228197: mosquitto version 1.6.3 starting
+1562228199: mosquitto version 1.6.3 starting
+1562228195: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228195: Opening ipv4 listen socket on port 1883.
+1562228195: Opening ipv6 listen socket on port 1883.
+1562228195: Connecting bridge A (172.18.0.254:1883)
+1562228199: New connection from 172.20.0.250 on port 1883.
+1562228200: mosquitto version 1.6.3 starting
+1562228201: mosquitto version 1.6.3 starting
+1562228199: New bridge connected from 172.20.0.250 as 8d6fdffd68b8.from-0-to- (p2, c0, k60).
+1562228200: New connection from 172.21.0.250 on port 1883.
+1562228200: New bridge connected from 172.21.0.250 as e4c788fbb077.from-1-to- (p2, c0, k60).
+1562228201: New connection from 172.22.0.250 on port 1883.
+1562228201: mosquitto version 1.6.3 starting
+1562228196: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228196: Opening ipv4 listen socket on port 1883.
+1562228196: Opening ipv6 listen socket on port 1883.
+1562228196: Connecting bridge B (172.18.0.254:1883)
+1562228201: New connection from 172.23.0.250 on port 1883.
+1562228203: mosquitto version 1.6.3 starting
+1562228197: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228197: Opening ipv4 listen socket on port 1883.
+1562228197: Opening ipv6 listen socket on port 1883.
+1562228197: Connecting bridge C (172.18.0.254:1883)
+1562228203: New connection from 172.24.0.250 on port 1883.
+1562228204: mosquitto version 1.6.3 starting
+1562228205: mosquitto version 1.6.3 starting
+1562228203: New bridge connected from 172.24.0.250 as 1f147d62e28a.from-4-to- (p2, c0, k60).
+1562228204: New connection from 172.25.0.250 on port 1883.
+1562228204: New bridge connected from 172.25.0.250 as dc1a34a25eb5.from-5-to- (p2, c0, k60).
+1562228205: New connection from 172.26.0.250 on port 1883.
+1562228201: New bridge connected from 172.22.0.250 as d564b84da1de.from-2-to- (p2, c0, k60).
+1562228316: mosquitto version 1.6.3 terminating
+1562228201: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228201: Opening ipv4 listen socket on port 1883.
+1562228201: Opening ipv6 listen socket on port 1883.
+1562228201: Connecting bridge from-2-to- (172.22.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228199: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228199: Opening ipv4 listen socket on port 1883.
+1562228199: Opening ipv6 listen socket on port 1883.
+1562228199: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228205: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228205: Opening ipv4 listen socket on port 1883.
+1562228205: Opening ipv6 listen socket on port 1883.
+1562228205: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228204: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228204: Opening ipv4 listen socket on port 1883.
+1562228204: Opening ipv6 listen socket on port 1883.
+1562228204: Connecting bridge from-5-to- (172.25.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228200: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228200: Opening ipv4 listen socket on port 1883.
+1562228200: Opening ipv6 listen socket on port 1883.
+1562228200: Connecting bridge from-1-to- (172.21.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228203: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228203: Opening ipv4 listen socket on port 1883.
+1562228203: Opening ipv6 listen socket on port 1883.
+1562228203: Connecting bridge from-4-to- (172.24.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228201: New bridge connected from 172.23.0.250 as 450c33fbb97e.from-3-to- (p2, c0, k60).
+1562228316: mosquitto version 1.6.3 terminating
+1562228201: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228201: Opening ipv4 listen socket on port 1883.
+1562228201: Opening ipv6 listen socket on port 1883.
+1562228201: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562228316: mosquitto version 1.6.3 terminating
+1562228205: New bridge connected from 172.26.0.250 as 715c625608ad.from-6-to- (p2, c0, k60).
+1562228316: mosquitto version 1.6.3 terminating
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228316: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228327: mosquitto version 1.6.3 starting
+1562228328: mosquitto version 1.6.3 starting
+1562228329: mosquitto version 1.6.3 starting
+1562228331: mosquitto version 1.6.3 starting
+1562228327: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228327: Opening ipv4 listen socket on port 1883.
+1562228327: Opening ipv6 listen socket on port 1883.
+1562228327: Connecting bridge A (172.18.0.254:1883)
+1562228331: New connection from 172.20.0.250 on port 1883.
+1562228332: mosquitto version 1.6.3 starting
+1562228333: mosquitto version 1.6.3 starting
+1562228331: New bridge connected from 172.20.0.250 as dcdd47b519cd.from-0-to- (p2, c0, k60).
+1562228332: New connection from 172.21.0.250 on port 1883.
+1562228332: New bridge connected from 172.21.0.250 as 4e9fe88efe15.from-1-to- (p2, c0, k60).
+1562228333: New connection from 172.22.0.250 on port 1883.
+1562228334: mosquitto version 1.6.3 starting
+1562228328: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228328: Opening ipv4 listen socket on port 1883.
+1562228328: Opening ipv6 listen socket on port 1883.
+1562228328: Connecting bridge B (172.18.0.254:1883)
+1562228334: New connection from 172.23.0.250 on port 1883.
+1562228335: mosquitto version 1.6.3 starting
+1562228329: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228329: Opening ipv4 listen socket on port 1883.
+1562228329: Opening ipv6 listen socket on port 1883.
+1562228329: Connecting bridge C (172.18.0.254:1883)
+1562228335: New connection from 172.24.0.250 on port 1883.
+1562228335: mosquitto version 1.6.3 starting
+1562228336: mosquitto version 1.6.3 starting
+1562228332: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228332: Opening ipv4 listen socket on port 1883.
+1562228332: Opening ipv6 listen socket on port 1883.
+1562228332: Connecting bridge from-1-to- (172.21.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228335: New bridge connected from 172.24.0.250 as 73fa68eca4f0.from-4-to- (p2, c0, k60).
+1562228335: New connection from 172.25.0.250 on port 1883.
+1562228335: New bridge connected from 172.25.0.250 as 643911d6941d.from-5-to- (p2, c0, k60).
+1562228336: New connection from 172.26.0.250 on port 1883.
+1562228336: New bridge connected from 172.26.0.250 as f6b5c5f94e73.from-6-to- (p2, c0, k60).
+1562228390: mosquitto version 1.6.3 terminating
+1562228335: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228335: Opening ipv4 listen socket on port 1883.
+1562228335: Opening ipv6 listen socket on port 1883.
+1562228335: Connecting bridge from-4-to- (172.24.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228335: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228335: Opening ipv4 listen socket on port 1883.
+1562228335: Opening ipv6 listen socket on port 1883.
+1562228335: Connecting bridge from-5-to- (172.25.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228331: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228331: Opening ipv4 listen socket on port 1883.
+1562228331: Opening ipv6 listen socket on port 1883.
+1562228331: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228336: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228336: Opening ipv4 listen socket on port 1883.
+1562228336: Opening ipv6 listen socket on port 1883.
+1562228336: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562228390: Socket error on client local.f6b5c5f94e73.from-6-to-, disconnecting.
+1562228333: New bridge connected from 172.22.0.250 as 9dad15ba000a.from-2-to- (p2, c0, k60).
+1562228390: Socket error on client 4e9fe88efe15.from-1-to-, disconnecting.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228334: New bridge connected from 172.23.0.250 as 4d303f95e5e4.from-3-to- (p2, c0, k60).
+1562228390: mosquitto version 1.6.3 terminating
+1562228333: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228333: Opening ipv4 listen socket on port 1883.
+1562228333: Opening ipv6 listen socket on port 1883.
+1562228333: Connecting bridge from-2-to- (172.22.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228334: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228334: Opening ipv4 listen socket on port 1883.
+1562228334: Opening ipv6 listen socket on port 1883.
+1562228334: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562228390: mosquitto version 1.6.3 terminating
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Socket error on client dcdd47b519cd.from-0-to-, disconnecting.
+1562228390: Socket error on client local.f5f03a908bfc.A, disconnecting.
+1562228390: Socket error on client 9dad15ba000a.from-2-to-, disconnecting.
+1562228390: mosquitto version 1.6.3 terminating
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228390: mosquitto version 1.6.3 terminating
+1562228390: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228400: mosquitto version 1.6.3 starting
+1562228400: mosquitto version 1.6.3 starting
+1562228401: mosquitto version 1.6.3 starting
+1562228403: mosquitto version 1.6.3 starting
+1562228400: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228400: Opening ipv4 listen socket on port 1883.
+1562228400: Opening ipv6 listen socket on port 1883.
+1562228400: Connecting bridge A (172.18.0.254:1883)
+1562228403: New connection from 172.20.0.250 on port 1883.
+1562228404: mosquitto version 1.6.3 starting
+1562228405: mosquitto version 1.6.3 starting
+1562228403: New bridge connected from 172.20.0.250 as 99c4e8fc192a.from-0-to- (p2, c0, k60).
+1562228404: New connection from 172.21.0.250 on port 1883.
+1562228404: New bridge connected from 172.21.0.250 as 8aa9f761bda1.from-1-to- (p2, c0, k60).
+1562228405: New connection from 172.22.0.250 on port 1883.
+1562228406: mosquitto version 1.6.3 starting
+1562228400: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228400: Opening ipv4 listen socket on port 1883.
+1562228400: Opening ipv6 listen socket on port 1883.
+1562228400: Connecting bridge B (172.18.0.254:1883)
+1562228406: New connection from 172.23.0.250 on port 1883.
+1562228407: mosquitto version 1.6.3 starting
+1562228401: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228401: Opening ipv4 listen socket on port 1883.
+1562228401: Opening ipv6 listen socket on port 1883.
+1562228401: Connecting bridge C (172.18.0.254:1883)
+1562228407: New connection from 172.24.0.250 on port 1883.
+1562228408: mosquitto version 1.6.3 starting
+1562228409: mosquitto version 1.6.3 starting
+1562228407: New bridge connected from 172.24.0.250 as cf7349f527a7.from-4-to- (p2, c0, k60).
+1562228408: New connection from 172.25.0.250 on port 1883.
+1562228408: New bridge connected from 172.25.0.250 as 765bd4541644.from-5-to- (p2, c0, k60).
+1562228409: New connection from 172.26.0.250 on port 1883.
+1562228404: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228404: Opening ipv4 listen socket on port 1883.
+1562228404: Opening ipv6 listen socket on port 1883.
+1562228404: Connecting bridge from-1-to- (172.21.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228409: New bridge connected from 172.26.0.250 as 2a927f35800a.from-6-to- (p2, c0, k60).
+1562228634: mosquitto version 1.6.3 terminating
+1562228405: New bridge connected from 172.22.0.250 as 87f8886ee0f1.from-2-to- (p2, c0, k60).
+1562228634: mosquitto version 1.6.3 terminating
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228405: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228405: Opening ipv4 listen socket on port 1883.
+1562228405: Opening ipv6 listen socket on port 1883.
+1562228405: Connecting bridge from-2-to- (172.22.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228406: New bridge connected from 172.23.0.250 as 21313b0288d3.from-3-to- (p2, c0, k60).
+1562228634: mosquitto version 1.6.3 terminating
+1562228408: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228408: Opening ipv4 listen socket on port 1883.
+1562228408: Opening ipv6 listen socket on port 1883.
+1562228408: Connecting bridge from-5-to- (172.25.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228403: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228403: Opening ipv4 listen socket on port 1883.
+1562228403: Opening ipv6 listen socket on port 1883.
+1562228403: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228409: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228409: Opening ipv4 listen socket on port 1883.
+1562228409: Opening ipv6 listen socket on port 1883.
+1562228409: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228407: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228407: Opening ipv4 listen socket on port 1883.
+1562228407: Opening ipv6 listen socket on port 1883.
+1562228407: Connecting bridge from-4-to- (172.24.0.254:1883)
+1562228634: mosquitto version 1.6.3 terminating
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228406: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228406: Opening ipv4 listen socket on port 1883.
+1562228406: Opening ipv6 listen socket on port 1883.
+1562228406: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562228634: Socket error on client local.21313b0288d3.from-3-to-, disconnecting.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228634: mosquitto version 1.6.3 terminating
+1562228634: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228644: mosquitto version 1.6.3 starting
+1562228645: mosquitto version 1.6.3 starting
+1562228646: mosquitto version 1.6.3 starting
+1562228648: mosquitto version 1.6.3 starting
+1562228644: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228644: Opening ipv4 listen socket on port 1883.
+1562228644: Opening ipv6 listen socket on port 1883.
+1562228644: Connecting bridge A (172.18.0.254:1883)
+1562228648: New connection from 172.20.0.250 on port 1883.
+1562228648: mosquitto version 1.6.3 starting
+1562228649: mosquitto version 1.6.3 starting
+1562228650: mosquitto version 1.6.3 starting
+1562228645: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228645: Opening ipv4 listen socket on port 1883.
+1562228645: Opening ipv6 listen socket on port 1883.
+1562228645: Connecting bridge B (172.18.0.254:1883)
+1562228650: New connection from 172.23.0.250 on port 1883.
+1562228651: mosquitto version 1.6.3 starting
+1562228646: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228646: Opening ipv4 listen socket on port 1883.
+1562228646: Opening ipv6 listen socket on port 1883.
+1562228646: Connecting bridge C (172.18.0.254:1883)
+1562228651: New connection from 172.24.0.250 on port 1883.
+1562228652: mosquitto version 1.6.3 starting
+1562228653: mosquitto version 1.6.3 starting
+1562228651: New bridge connected from 172.24.0.250 as 2842b15f9dff.from-4-to- (p2, c0, k60).
+1562228652: New connection from 172.25.0.250 on port 1883.
+1562228652: New bridge connected from 172.25.0.250 as 1a6ceab29e92.from-5-to- (p2, c0, k60).
+1562228653: New connection from 172.26.0.250 on port 1883.
+1562228648: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228648: Opening ipv4 listen socket on port 1883.
+1562228648: Opening ipv6 listen socket on port 1883.
+1562228648: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562228935: New connection from 172.20.0.2 on port 1883.
+1562228935: New client connected from 172.20.0.2 as mosqsub|6-3294de70bb39 (p2, c1, k60).
+1562228955: New connection from 172.20.0.3 on port 1883.
+1562228955: New client connected from 172.20.0.3 as mosqpub|6-68c2b2374c97 (p2, c1, k60).
+1562228955: Client mosqpub|6-68c2b2374c97 disconnected.
+1562228967: New connection from 172.20.0.3 on port 1883.
+1562228648: New bridge connected from 172.20.0.250 as a01c20399054.from-0-to- (p2, c0, k60).
+1562228648: New connection from 172.21.0.250 on port 1883.
+1562228648: New bridge connected from 172.21.0.250 as 697727369f15.from-1-to- (p2, c0, k60).
+1562228649: New connection from 172.22.0.250 on port 1883.
+1562228649: New bridge connected from 172.22.0.250 as ee659b2033e1.from-2-to- (p2, c0, k60).
+1562228982: New connection from 172.18.0.5 on port 1883.
+1562228967: New client connected from 172.20.0.3 as mosqsub|6-88a62b6e4220 (p2, c1, k60).
+1562228968: Socket error on client mosqsub|6-88a62b6e4220, disconnecting.
+1562228986: New connection from 172.20.0.3 on port 1883.
+1562228982: New client connected from 172.18.0.5 as mosqsub|7-dbcf7ffbd069 (p2, c1, k60).
+1562228990: Socket error on client mosqsub|7-dbcf7ffbd069, disconnecting.
+1562228994: New connection from 172.18.0.5 on port 1883.
+1562228986: New client connected from 172.20.0.3 as mosqpub|6-5eb0961616c9 (p2, c1, k60).
+1562228986: Client mosqpub|6-5eb0961616c9 disconnected.
+1562228995: Socket error on client mosqsub|6-3294de70bb39, disconnecting.
+1562228650: New bridge connected from 172.23.0.250 as eac7395c675e.from-3-to- (p2, c0, k60).
+1562229007: New connection from 172.18.0.6 on port 1883.
+1562229009: New connection from 172.20.0.2 on port 1883.
+1562229009: New client connected from 172.20.0.2 as mosqpub|6-c0bc4fbb78e7 (p2, c1, k60).
+1562229009: Client mosqpub|6-c0bc4fbb78e7 disconnected.
+1562229014: New connection from 172.20.0.2 on port 1883.
+1562228650: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228650: Opening ipv4 listen socket on port 1883.
+1562228650: Opening ipv6 listen socket on port 1883.
+1562228650: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562229034: New connection from 172.23.0.2 on port 1883.
+1562229034: New client connected from 172.23.0.2 as mosqpub|7-9562be17e254 (p2, c1, k60).
+1562229034: Client mosqpub|7-9562be17e254 disconnected.
+1562229039: New connection from 172.23.0.2 on port 1883.
+1562229014: New client connected from 172.20.0.2 as mosqpub|6-d1ebd7fb5d2b (p2, c1, k60).
+1562229014: Client mosqpub|6-d1ebd7fb5d2b disconnected.
+1562229065: New connection from 172.20.0.2 on port 1883.
+1562229039: New client connected from 172.23.0.2 as mosqpub|7-64748c1d834a (p2, c1, k60).
+1562229039: Client mosqpub|7-64748c1d834a disconnected.
+1562229068: New connection from 172.23.0.2 on port 1883.
+1562228994: New client connected from 172.18.0.5 as mosqsub|6-67d3539cd001 (p2, c1, k60).
+1562229089: New connection from 172.18.0.7 on port 1883.
+1562229068: New client connected from 172.23.0.2 as mosqpub|6-d4c54cbf9d38 (p2, c1, k60).
+1562229068: Client mosqpub|6-d4c54cbf9d38 disconnected.
+1562229091: New connection from 172.23.0.2 on port 1883.
+1562229007: New client connected from 172.18.0.6 as mosqsub|8-3303c9810572 (p2, c1, k60).
+1562229143: Socket error on client mosqsub|8-3303c9810572, disconnecting.
+1562229065: New client connected from 172.20.0.2 as mosqsub|8-ddcfdad24574 (p2, c1, k60).
+1562229143: Socket error on client mosqsub|8-ddcfdad24574, disconnecting.
+1562229089: New client connected from 172.18.0.7 as mosqsub|6-bd89fef80301 (p2, c1, k60).
+1562229144: Socket error on client mosqsub|6-bd89fef80301, disconnecting.
+1562229154: Socket error on client mosqsub|6-67d3539cd001, disconnecting.
+1562228652: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228652: Opening ipv4 listen socket on port 1883.
+1562228652: Opening ipv6 listen socket on port 1883.
+1562228652: Connecting bridge from-5-to- (172.25.0.254:1883)
+1562229154: mosquitto version 1.6.3 terminating
+1562228653: New bridge connected from 172.26.0.250 as 7f9ccc9a6bfa.from-6-to- (p2, c0, k60).
+1562229154: mosquitto version 1.6.3 terminating
+1562229091: New client connected from 172.23.0.2 as mosqpub|6-47c641871872 (p2, c1, k60).
+1562229091: Client mosqpub|6-47c641871872 disconnected.
+1562229154: mosquitto version 1.6.3 terminating
+1562228648: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228648: Opening ipv4 listen socket on port 1883.
+1562228648: Opening ipv6 listen socket on port 1883.
+1562228648: Connecting bridge from-1-to- (172.21.0.254:1883)
+1562229154: mosquitto version 1.6.3 terminating
+1562228649: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228649: Opening ipv4 listen socket on port 1883.
+1562228649: Opening ipv6 listen socket on port 1883.
+1562228649: Connecting bridge from-2-to- (172.22.0.254:1883)
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: Socket error on client local.68c26fff1072.B, disconnecting.
+1562228653: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228653: Opening ipv4 listen socket on port 1883.
+1562228653: Opening ipv6 listen socket on port 1883.
+1562228653: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562229154: Socket error on client local.7f9ccc9a6bfa.from-6-to-, disconnecting.
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562228651: Config loaded from /mosquitto/config/mosquitto.conf.
+1562228651: Opening ipv4 listen socket on port 1883.
+1562228651: Opening ipv6 listen socket on port 1883.
+1562228651: Connecting bridge from-4-to- (172.24.0.254:1883)
+1562229154: Socket error on client local.2842b15f9dff.from-4-to-, disconnecting.
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: Socket error on client eac7395c675e.from-3-to-, disconnecting.
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: Socket error on client local.a01c20399054.from-0-to-, disconnecting.
+1562229154: Socket error on client local.94a1500da93e.A, disconnecting.
+1562229154: Socket error on client 697727369f15.from-1-to-, disconnecting.
+1562229154: Socket error on client ee659b2033e1.from-2-to-, disconnecting.
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229154: mosquitto version 1.6.3 terminating
+1562229154: Saving in-memory database to /mosquitto/data/mosquitto.db.
+1562229167: mosquitto version 1.6.3 starting
+1562229168: mosquitto version 1.6.3 starting
+1562229168: mosquitto version 1.6.3 starting
+1562229171: mosquitto version 1.6.3 starting
+1562229167: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229167: Opening ipv4 listen socket on port 1883.
+1562229167: Opening ipv6 listen socket on port 1883.
+1562229167: Connecting bridge A (172.18.0.254:1883)
+1562229171: New connection from 172.20.0.250 on port 1883.
+1562229171: mosquitto version 1.6.3 starting
+1562229172: mosquitto version 1.6.3 starting
+1562229173: mosquitto version 1.6.3 starting
+1562229168: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229168: Opening ipv4 listen socket on port 1883.
+1562229168: Opening ipv6 listen socket on port 1883.
+1562229168: Connecting bridge B (172.18.0.254:1883)
+1562229173: New connection from 172.23.0.250 on port 1883.
+1562229174: mosquitto version 1.6.3 starting
+1562229168: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229168: Opening ipv4 listen socket on port 1883.
+1562229168: Opening ipv6 listen socket on port 1883.
+1562229168: Connecting bridge C (172.18.0.254:1883)
+1562229174: New connection from 172.24.0.250 on port 1883.
+1562229175: mosquitto version 1.6.3 starting
+1562229176: mosquitto version 1.6.3 starting
+1562229174: New bridge connected from 172.24.0.250 as d81bfac7d63b.from-4-to- (p2, c0, k60).
+1562229175: New connection from 172.25.0.250 on port 1883.
+1562229175: New bridge connected from 172.25.0.250 as 99c9407195d3.from-5-to- (p2, c0, k60).
+1562229176: New connection from 172.26.0.250 on port 1883.
+1562229173: New bridge connected from 172.23.0.250 as cdb3733c1922.from-3-to- (p2, c0, k60).
+1562229182: New connection from 172.18.0.5 on port 1883.
+1562229171: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229171: Opening ipv4 listen socket on port 1883.
+1562229171: Opening ipv6 listen socket on port 1883.
+1562229171: Connecting bridge from-0-to- (172.20.0.254:1883)
+1562229183: New connection from 172.20.0.2 on port 1883.
+1562229171: New bridge connected from 172.20.0.250 as 68c8e90f18bc.from-0-to- (p2, c0, k60).
+1562229171: New connection from 172.21.0.250 on port 1883.
+1562229171: New bridge connected from 172.21.0.250 as d888d29f8598.from-1-to- (p2, c0, k60).
+1562229172: New connection from 172.22.0.250 on port 1883.
+1562229172: New bridge connected from 172.22.0.250 as 619a789af02d.from-2-to- (p2, c0, k60).
+1562229184: New connection from 172.18.0.6 on port 1883.
+1562229173: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229173: Opening ipv4 listen socket on port 1883.
+1562229173: Opening ipv6 listen socket on port 1883.
+1562229173: Connecting bridge from-3-to- (172.23.0.254:1883)
+1562229198: New connection from 172.23.0.2 on port 1883.
+1562229198: New client connected from 172.23.0.2 as mosqpub|6-96f2349271fa (p2, c1, k60).
+1562229198: Client mosqpub|6-96f2349271fa disconnected.
+1562229206: New connection from 172.23.0.2 on port 1883.
+1562229184: New client connected from 172.18.0.6 as mosqsub|7-cf8591a78419 (p2, c1, k60).
+1562229213: Socket error on client mosqsub|7-cf8591a78419, disconnecting.
+1562229176: Config loaded from /mosquitto/config/mosquitto.conf.
+1562229176: Opening ipv4 listen socket on port 1883.
+1562229176: Opening ipv6 listen socket on port 1883.
+1562229176: Connecting bridge from-6-to- (172.26.0.254:1883)
+1562229236: New connection from 172.26.0.2 on port 1883.
+1562229206: New client connected from 172.23.0.2 as mosqpub|6-31d71d6b1a80 (p2, c1, k60).
+1562229206: Client mosqpub|6-31d71d6b1a80 disconnected.
+1562229242: New connection from 172.23.0.2 on port 1883.
+1562229242: New client connected from 172.23.0.2 as mosqpub|9-b526a847f4de (p2, c1, k60).
+1562229242: Client mosqpub|9-b526a847f4de disconnected.
+1562229247: New connection from 172.23.0.2 on port 1883.
