@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 GLOBAL_BRK_NUM=3
-PWD="$(pwd)"
+PWD="~/Dropbox/phd_edo/mosquitto"
 
 declare -A map=(["sub0"]="globalA" \
                 ["sub1"]="globalA" \
