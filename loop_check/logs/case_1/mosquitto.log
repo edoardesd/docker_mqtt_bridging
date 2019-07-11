@@ -1,0 +1,22 @@
+1562837166: mosquitto version 1.6.3 starting
+1562837166: Config loaded from /mosquitto/config/mosquitto.conf.
+1562837166: Opening ipv4 listen socket on port 1883.
+1562837166: Opening ipv6 listen socket on port 1883.
+1562837166: Connecting bridge A-config (172.21.0.3:1883)
+1562837167: New connection from 172.21.0.3 on port 1883.
+1562837167: New bridge connected from 172.21.0.3 as 3151335357ae.B-config (p2, c0, k60).
+1562837311: New connection from 172.21.0.4 on port 1883.
+1562837311: New client connected from 172.21.0.4 as mosqsub|6-a9e8b371582c (p2, c1, k60).
+1562837353: New connection from 172.21.0.5 on port 1883.
+1562837353: New client connected from 172.21.0.5 as mosqpub|6-81f27a0da9f8 (p2, c1, k60).
+1562837353: Client mosqpub|6-81f27a0da9f8 disconnected.
+1562837364: Socket error on client mosqsub|6-a9e8b371582c, disconnecting.
+1562837405: New connection from 172.21.0.4 on port 1883.
+1562837405: New client connected from 172.21.0.4 as mosqsub|6-fc55daa62fa1 (p2, c1, k60).
+1562837406: Socket error on client mosqsub|6-fc55daa62fa1, disconnecting.
+1562837563: New connection from 172.21.0.4 on port 1883.
+1562837563: New client connected from 172.21.0.4 as mosqpub|7-fcb95604d043 (p2, c1, k60).
+1562837563: Client mosqpub|7-fcb95604d043 disconnected.
+1562837570: New connection from 172.21.0.4 on port 1883.
+1562837570: New client connected from 172.21.0.4 as mosqsub|6-71a370a3fa49 (p2, c1, k60).
+1562837588: Socket error on client mosqsub|6-71a370a3fa49, disconnecting.
